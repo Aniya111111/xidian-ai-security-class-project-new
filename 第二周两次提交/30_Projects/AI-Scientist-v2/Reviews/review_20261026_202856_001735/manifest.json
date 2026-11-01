@@ -1,0 +1,26 @@
+{
+  "manuscript": {
+    "path": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261025_201842_391322_f25b4802.md",
+    "sha256": "38666074937a2fec3b75669aafe4850ce2a481be6e35dee9b9a79a8fca050ce8"
+  },
+  "evidence": {
+    "path": "C:\\Users\\lishuwen\\AppData\\Local\\Temp\\agent_ifc_selected_evidence_20261026.md",
+    "sha256": "1447cd33b8835cb50c2dcd65ead8fee3d8e573d79c98c8659f7ce295989c1842",
+    "selected_text_sha256": "1447cd33b8835cb50c2dcd65ead8fee3d8e573d79c98c8659f7ce295989c1842"
+  },
+  "created_at": "2026-10-26T20:28:56.352474+08:00",
+  "status": "failed",
+  "model": "qwen3.8-flash",
+  "python_version": "3.11.17",
+  "packages": {
+    "openai": "3.37.0",
+    "anthropic": "2.3.0",
+    "backoff": "2.2.1",
+    "numpy": "2.4.6",
+    "pymupdf4llm": "2.0",
+    "python-dotenv": "1.2.4"
+  },
+  "packet_sha256": "194d8fb302fcbfca69f3d5b4018ed594e9096d30e467d0e7227dc98077c8d919",
+  "network_mode": "direct",
+  "error_type": "APITimeoutError"
+}

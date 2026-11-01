@@ -1,0 +1,44 @@
+{
+  "manuscript": {
+    "path": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261026_203458_912514_14f330f3\\revised_20261026\\revised.md",
+    "sha256": "a927d296b2cfa0f8d7232e65769a0bd956450439436cd9295a915734c426ed72"
+  },
+  "evidence": {
+    "path": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261026_203458_912514_14f330f3\\revised_20261026\\review_evidence.md",
+    "sha256": "6a22bc5adfbac337059be1f5a0a365e66977217c786d0594bbd815db4107a846",
+    "selected_text_sha256": "6a22bc5adfbac337059be1f5a0a365e66977217c786d0594bbd815db4107a846"
+  },
+  "created_at": "2026-10-26T21:31:55.010814+08:00",
+  "status": "completed",
+  "model": "qwen3.7-flash",
+  "python_version": "3.11.17",
+  "packages": {
+    "openai": "3.37.0",
+    "anthropic": "2.3.0",
+    "backoff": "2.2.1",
+    "numpy": "2.4.6",
+    "pymupdf4llm": "2.0",
+    "python-dotenv": "1.2.4"
+  },
+  "packet_sha256": "326e58100096e2071d28b895e8ba551656659ba3cb899e2b6dab97b9c672cee8",
+  "network_mode": "direct",
+  "excluded_unverifiable_issues": [
+    {
+      "id": "R1-m1",
+      "reason": "模型给出的 claim_quote 不是稿件中的连续原句，无法安全校正；未将该条作为有效审阅意见保存。",
+      "model_quote": "若同一实例在两套判定下出现差异，攻击成功率（ASR）与传播深度（PD）的解释便需分别说明；这里的 PD 不是“防御有效性”。上述内容是需核查的判定一致性问题，不是本文测得的结果 [S3; C5]。",
+      "nearest_match_ratio": 0.655
+    }
+  ],
+  "raw_model_response_preserved_as": "model_response_raw.json",
+  "recovery_note": "One markup-only quote was corrected. One fabricated composite quote was excluded, not silently mapped.",
+  "quote_corrections": [
+    {
+      "id": "R1-M1",
+      "old": "安全性质的强度对比（CFI vs TIPNI）需在具体拓扑与任务分布上形式化刻画，而非停留在定性断言 [S1]。",
+      "new": "安全性质的强度对比（CFI vs TIPNI）需在具体拓扑与任务分布上形式化刻画，而非停留在定性断言 **[S1]**。"
+    }
+  ],
+  "recovered_without_model_call": true,
+  "recovered_error_type": "ValueError"
+}

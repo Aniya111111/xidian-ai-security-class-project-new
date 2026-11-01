@@ -1,0 +1,58 @@
+{
+  "run_id": "ai_researcher_ideation_20261026_203458_912514_14f330f3",
+  "created_at": "2026-10-26T20:34:59+08:00",
+  "model": null,
+  "question": "请根据 Reference 中的最终修订稿，生成一篇中文文献综合型论文初稿。\n\n论文主题：多 Agent 系统安全中的边界信任、协议可组合性与评估框架。\n\n要求：\n1. 只使用 Reference 中的内容，不补充未经提供的论文事实、实验结果或数字。\n2. 区分原论文结论、笔记分析和本文作者的组织性建议。\n3. 保留 C1–C10 主张编号及其来源路径。\n4. 将 MADBench 写成待核验的问题导向材料，不声称其已完成或缺少系统化评测。\n5. 明确说明本文没有开展新实验。\n6. 生成标题、摘要、引言、相关工作、文献综合、讨论、局限性、结论和参考文献占位。\n7. 单独生成“主张—来源映射表”。\n8. 输出两个部分：\n   A. 论文正文初稿\n   B. 主张—来源映射表",
+  "evidence_bundle": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\References\\multi-agent-security.reference.md",
+  "evidence_sha256": "13e806374faba89dc1116c5b855e38269c7cc3cd81875d7fa87ceaf8a13c6bd6",
+  "supplemental_reference_provided": false,
+  "outputs": {
+    "report": "report.md",
+    "paper_draft": "paper_draft.md",
+    "claim_source_map": "claim_source_map.md",
+    "review_input": "review_input.md",
+    "selected_evidence": "selected_evidence.md"
+  },
+  "audit_warnings": [
+    "定位疑似被截断，需从来源笔记补全：[Paper: Sec…]",
+    "定位未在本次摘录中原样出现：[Paper: Sec…]",
+    "定位疑似被截断，需从来源笔记补全：[Paper: ...]",
+    "定位未在本次摘录中原样出现：[Paper: ...]"
+  ],
+  "author_status": "pending_human_review",
+  "audit_scope": "format and structure checks only; no semantic or source-truth verification",
+  "exported_from": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261025_201842_391322_f25b4802.md",
+  "original_sha256": "38666074937a2fec3b75669aafe4850ce2a481be6e35dee9b9a79a8fca050ce8",
+  "generation_performed": false,
+  "model_note": "Original model not recorded; export did not call a model",
+  "selected_sources": [
+    {
+      "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
+      "path": "Agent-IFC/10_Papers/2026_James Peters-Gill_Can CaMeLs Talk_ Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks.md",
+      "note_sha256": "59775e74afeb2756e97b54189f34ebfaf3cb9eac1c1d5d618b49ed72cbf8ba88",
+      "selected_chars": 5200,
+      "selected_sections": 2
+    },
+    {
+      "title": "多Agent协作的安全防护",
+      "path": "Agent-IFC/20_Themes/多Agent协作的安全防护.md",
+      "note_sha256": "f69c2638cddcd6ac96421f8a1c8752f705c2919a64cd2661b3e9d63a8cde0c48",
+      "selected_chars": 2206,
+      "selected_sections": 6
+    },
+    {
+      "title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
+      "path": "Agent-IFC/10_Papers/unknown_Ben Hagag_ORBIT_ A Framework for Multi-Agent Safety and Security Evaluations.md",
+      "note_sha256": "41ee328c301d418c7eb20e9df0c3f58ff2e443b5b5b4713283c57d26bc8e2747",
+      "selected_chars": 4736,
+      "selected_sections": 3
+    },
+    {
+      "title": "MADBench: Benchmarking the Security of Multi-Agent Debate",
+      "path": "Agent-IFC/10_Papers/unknown_Yuwan Liu_MADBench_ Benchmarking the Security of Multi-Agent Debate.md",
+      "note_sha256": "d5910beb563fdc571b36b17c91930791e4430efa0228ea8db7440548a2e055c8",
+      "selected_chars": 2804,
+      "selected_sections": 5
+    }
+  ]
+}

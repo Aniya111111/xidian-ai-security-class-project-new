@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": "scholarfeed",
+  "sha256": "d40834252e1aa3995a5cf4c52a7f014b3b7776813a6ad7aeded4be8357afac9c",
+  "metadata": {
+    "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+    "authors": [
+      "Rudrendu Kumar Paul",
+      "Sourav Nandy"
+    ],
+    "year": null,
+    "venue": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2609.22949"
+  },
+  "retrieved_at": "2026-10-17T09:43:45.723433+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22949"
+}

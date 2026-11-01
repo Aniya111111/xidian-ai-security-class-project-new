@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "claim_rows": 10,
+  "table_columns": 8,
+  "original_files_unchanged": true,
+  "split_and_combined_versions_match": true,
+  "truncated_claim_locators": 0,
+  "source_note_locators_checked": true,
+  "original_pdf_verification": false,
+  "new_model_review_completed": false,
+  "experiment_execution": false
+}

@@ -1,0 +1,39 @@
+{
+  "manuscript": {
+    "path": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261026_203458_912514_14f330f3\\review_input.md",
+    "sha256": "20c7c0565771a52b1c477e6b1558a2d096679c11fd69821042a890d0e3d0342c"
+  },
+  "evidence": {
+    "path": "E:\\oblidian\\file\\safetyAI\\Agent-IFC\\30_Projects\\AI-Researcher\\Results\\ai_researcher_ideation_20261026_203458_912514_14f330f3\\selected_evidence.md",
+    "sha256": "7bd3453218937be0291fc6625c76c44ada11c5b9c54f330f2d5caf3a4cc2240b",
+    "selected_text_sha256": "7bd3453218937be0291fc6625c76c44ada11c5b9c54f330f2d5caf3a4cc2240b"
+  },
+  "created_at": "2026-10-26T20:39:07.395897+08:00",
+  "status": "completed",
+  "model": "qwen3.7-flash",
+  "python_version": "3.11.17",
+  "packages": {
+    "openai": "3.37.0",
+    "anthropic": "2.3.0",
+    "backoff": "2.2.1",
+    "numpy": "2.4.6",
+    "pymupdf4llm": "2.0",
+    "python-dotenv": "1.2.4"
+  },
+  "packet_sha256": "a71c675e4e38682cd19770c61c546737ba4dabad9432f2ac9fa9020620c9197f",
+  "network_mode": "direct",
+  "quote_corrections": [
+    {
+      "id": "R1-M1",
+      "old": "为此，协议层将调用边界显式双通道化被提出为必要修复路径：message 通道仅承载可信指令（不得依赖任何工具输出），variables 通道携带受限且不透明值，配合运行时 get_variable 取用与策略强制，可在假设拓扑为有根树的前提下恢复控制流预期 [S1; S2]。",
+      "new": "为此，协议层将调用边界显式双通道化被提出为必要修复路径：`message` 通道仅承载可信指令（不得依赖任何工具输出），`variables` 通道携带受限且不透明值，配合运行时 `get_variable` 取用与策略强制，可在假设拓扑为有根树的前提下恢复控制流预期 **[S1; S2]**。"
+    },
+    {
+      "id": "R1-m1",
+      "old": "成功判定标准并存语法匹配与LLM judge语义赋值，同一轮交互可能出现判据触发但judge评分中性，或反之，导致攻击成功率(ASR)与防御有效性(PD)的语义映射发生偏移 [S3]。",
+      "new": "成功判定标准并存语法匹配与LLM judge语义赋值，同一轮交互可能出现判据触发但judge评分中性，或反之，导致攻击成功率(ASR)与防御有效性(PD)的语义映射发生偏移 **[S3]**。"
+    }
+  ],
+  "recovered_without_model_call": true,
+  "recovered_error_type": "ValueError"
+}

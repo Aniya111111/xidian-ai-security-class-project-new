@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source": "scholarfeed",
+  "sha256": "cc3955325a1c9f94c5365ef50112cc4b4938f39e63325f60b2d6ee18e0b9742c",
+  "metadata": {
+    "title": "MADBench: Benchmarking the Security of Multi-Agent Debate",
+    "authors": [
+      "Yuwan Liu",
+      "Jiaming Zhang",
+      "Yue Huang",
+      "Sisi Duan"
+    ],
+    "year": null,
+    "venue": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2609.39146"
+  },
+  "retrieved_at": "2026-10-17T09:43:46.423287+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.39146"
+}
